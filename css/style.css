@@ -1,0 +1,107 @@
+.main-container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+
+/* Banner*/
+.banner {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 60px;
+    background: #F0F6FF;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 28px;
+    color: #266DD3;
+}
+
+.banner-desc {
+    font-size: 18px;
+    color: #1F3651;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.banner_link {
+    padding: 20px;
+    background: #266DD3;
+    border-radius: 10px;
+    color: #FFF;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.banner_sub-desc {
+    font-size: 12px;
+    color: #1F3651;
+    margin-top: 9px;
+}
+
+
+
+/* dropdown block */
+.dropdown-item {
+    border-radius: 10px;
+    display: flex;
+    border: 1px solid #DEE9F8 ;
+    align-items: baseline;
+    padding: 10px 20px 10px 10px;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+
+.dropdown-content {
+    line-height: 44px;
+}
+
+.dropdown-container {
+    max-width: 598px;
+    margin: 0 auto;
+}
+
+
+.main-swiper {
+    position: relative;
+}
+.swiper-container {
+    width: 100%;
+}
+.main-swiper .swiper-slide {
+    padding: 30px 20px; /* Внутренние отступы для содержимого слайда */
+    border-radius: 10px;
+    border: 1px solid #DEE9F8;
+    width: auto; /* Если вы используете slidesPerView: 'auto' */
+}
+
+
+.main-swiper .swiper-pagination {
+    display: none; /* Скрывает элементы пагинации */
+}
+
+.main-swiper .swiper-button-next,
+.main-swiper .swiper-button-prev {
+    top: 108%;
+}
+
+
+.main-container-swiper {
+    max-width: 980px;
+    margin: 0 auto;
+    overflow: hidden;
+    min-height: 425px;
+}
+.banner-main {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 60px;
+    background: #F0F6FF;
+    border-radius: 10px;
+    align-items: center;
+    background: linear-gradient(97.74deg, #D6E8FF 36.8%, #D1FFDB 56.45%);
+}
